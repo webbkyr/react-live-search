@@ -18,7 +18,10 @@ import CharacterList from './character-list';
 export default class LiveSearch extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {}
+        this.state = {
+            inputValue: '',
+            searchResults: []
+        }
     }
 
     render() {

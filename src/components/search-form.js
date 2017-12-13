@@ -5,6 +5,7 @@ export default function SearchForm(props) {
         <form onSubmit={e => e.preventDefault()}>
             <label htmlFor="search">Search</label>&emsp;
             <input
+            onChange={e => console.log(e.target.value)}
                 aria-controls="character-count"
                 type="search"
                 id="search"
