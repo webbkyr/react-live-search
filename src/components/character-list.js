@@ -6,6 +6,9 @@ export default function CharacterList(props) {
             <strong>{character.name}</strong> ({character.actor}) - {character.description}
         </li>
     );
+    // const filtererCharacters = props.character.filter(character => {
+        
+    // })
     return (
         <ul className="character-list">
             {characters}
